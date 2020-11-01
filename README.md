@@ -26,7 +26,6 @@ Gracias a todas las personas que contribuyen.
  spring.datasource.password=[root - clave DB]
 ~~~
 
-
 Para ver un test visual de las apis ingresar a:
 (reemplzar el localhost por la ip del servidor de aplicaciones)
 http://localhost:8282/swagger-ui.html
