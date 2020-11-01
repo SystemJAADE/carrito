@@ -12,6 +12,12 @@ Gracias a todas las personas que contribuyen.
 
 - [Elí Gamaliel Tarazona Marrujo](https://www.facebook.com/elitgamaliel) 🎲
 
+## Intrucciones para levantar el proyecto
+Para levantar el proyecto primero ejecutar el query de la creacion de base de datos el mismo se encuentran la raiz del repositorio:
+- carrito.sql
+
+
+
 Para ver un test visual de las apis ingresar a:
 http://localhost:8282/swagger-ui.html
 
