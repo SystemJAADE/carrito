@@ -3,11 +3,13 @@ package com.elitgamaliel.carrito.services.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.elitgamaliel.carrito.dao.IClienteDao;
 import com.elitgamaliel.carrito.entitys.Cliente;
 import com.elitgamaliel.carrito.services.IClienteService;
 
+@Service
 public class ClienteServiceImpl implements IClienteService {
 
 	@Autowired
