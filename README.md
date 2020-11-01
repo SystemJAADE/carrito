@@ -12,6 +12,10 @@ Gracias a todas las personas que contribuyen.
 
 - [Elí Gamaliel Tarazona Marrujo](https://www.facebook.com/elitgamaliel) 🎲
 
+Para ver un test visual de las apis ingresar a:
+http://localhost:8282/swagger-ui.html
+
+
 ## 🤝 Contribuyendo
 [elitgamaliel]
 
