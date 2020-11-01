@@ -17,6 +17,8 @@ import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 /**
  *
  * @author elitgamaliel
@@ -42,6 +44,7 @@ public class Producto implements Serializable {
 	// consider using these annotations to enforce field validation
 	@Column(name = "precio")
 	private BigDecimal precio;
+	@JsonIgnore
 	@OneToMany(mappedBy = "idProducto", fetch = FetchType.LAZY)
 	private List<DetalleVenta> detalleVentaList;
 

@@ -21,6 +21,8 @@ import javax.persistence.TemporalType;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 /**
  *
  * @author elitgamaliel
@@ -45,6 +47,7 @@ public class Venta implements Serializable {
 	@JoinColumn(name = "id_cliente", referencedColumnName = "id_cliente")
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Cliente idCliente;
+	@JsonIgnore
 	@OneToMany(mappedBy = "idVenta", fetch = FetchType.LAZY)
 	private List<DetalleVenta> detalleVentaList;
 
